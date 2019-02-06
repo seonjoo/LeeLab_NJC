@@ -1,2 +1,2 @@
-# LeeLab_NJC
+# LeeLab_NYC
 NeuroImage Journal Club Lab Meeting
