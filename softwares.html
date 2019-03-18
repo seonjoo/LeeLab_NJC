@@ -60,24 +60,85 @@
   </div>
 </nav>
 
-<main role="main">
-  <div class="jumbotron">
-	<div class="container">
-  	<h2> Meeting Time</h2>
-  		<div class="well">Every Friday 9:30-10:30am, ARB R202 Conference room</div>
-		</div>
-	</div>
 
-	<div class="container">
-	  <h2> Paper List</h2>
-	  <p><a class="nav-link", href="https://docs.google.com/spreadsheets/d/1XpECRbwUU6Xjgr_sItHXhisYF2gHL8TScCBcmcg7En4/edit?usp=sharing">Google Doc</a>
-	</p>
-	</div>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header" id="headingzero">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsezero" aria-expanded="true" aria-controls="collapsezero">
+
+        </button>
+      </h5>
+    </div>
+    <div id="collapsezero" class="collapse show" aria-labelledby="headingzero" data-parent="#accordion">
+      <div class="card-body">
+   
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          colorICA
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Independent component analysis...<a class="nav-link" href="https://cran.r-project.org/web/packages/coloredICA/index.html">R Package</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          PSVDOS
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Singular value decomposition<a class="nav-link" href="https://github.com/seonjoo/PSVDOS">R Package</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          HDLFPCA
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        High-dimensional longitudinal component analysis. <a class="nav-link" href=" https://github.com/seonjoo/HDLFPCA">R Package</a>
+      </div>
+    </div>
+  </div>
 </div>
-</main>
 
-
-
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Sparsemediation
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        High-dimensional mediation analysis.  <a class="nav-link" href="https://github.com/seonjoo/sparsemediation">R Package</a>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
