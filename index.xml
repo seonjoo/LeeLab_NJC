@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on LeeLab</title>
+    <link>/./</link>
+    <description>Recent content in Home on LeeLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jun 2017 18:27:58 +0100</lastBuildDate>
+    
+	<atom:link href="/./index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/./about/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/./about/</guid>
+      <description> LeeLab focuses on developing statistical analysis methods for neuroscience and mental health data science. Journal Club Meeting  Every Friday 9:30-10:30am, ARB R202 Conference room
+ Paper list
+  </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/./projects/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/./projects/</guid>
+      <description> On-going projects. Post-selection inference Sparse mediation/moderated mediation analysis Using CR-RANN.
+Function-on-scalar regression Using WHICAP.
+Measurement error model with high-dimensional longitudinal predictors With Dr. Park in NYU.
+Past Projects </description>
+    </item>
+    
+    <item>
+      <title>Review: connectome-based predictive modeling</title>
+      <link>/./2019-04-19-review-connectome-based-predictive-modeling/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/./2019-04-19-review-connectome-based-predictive-modeling/</guid>
+      <description> Review of connectome-based predictive modeling  </description>
+    </item>
+    
+  </channel>
+</rss>
